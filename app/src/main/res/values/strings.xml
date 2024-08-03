@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Tiber</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="google_maps_api_key">AIzaSyA5GO9Gg2nm3KDZC2Y2fQmnUojoAerhOzA</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_driver_activity">History</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="txtUsername" />
+    <string name="txtPassword" />
+    <string name="btnLogin">Sign In</string>
+    <string name="lbl_td_slogan">Drive with distinction, Drive with TIber</string>
+    <string name="lbl_ask_register">Don\'t have an account?</string>
+    <string name="btn_ask_register">Sign Up</string>
+    <string name="btn_Register">Sign Up</string>
+    <string name="prompt_first_name">First Name</string>
+    <string name="txt_LastName" />
+    <string name="prompt_last_name">Last Name</string>
+    <string name="txt_phone" />
+    <string name="prompt_phone">Phone Number</string>
+    <string name="btn_ask_signUp">Sign Up</string>
+    <string name="txt_FirstName" />
+    <string name="txtConfirmPassword">Confirm password</string>
+    <string name="lbl_Name">Username</string>
+    <string name="lbl_logged_email">me@Tiber.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btnAvailable">Available</string>
+    <string name="btnUnavailable">Available</string>
+    <string name="btnOut">Out of Service</string>
+    <string name="txtDrivingStatus">Are you available to drive?</string>
+    <string name="title_activity_driver_profile">DriverProfile</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="lbl_profileHeader">Profile</string>
+    <string name="lbl_helpHeader">Help</string>
+    <string name="lbl_driver_profile">Driver</string>
+    <string name="lbl_header_email" />
+    <string name="profile_lastName" />
+    <string name="profile_firstName" />
+    <string name="profile_AccountNumber" />
+    <string name="profile_AccountNumber_Hint">Account number</string>
+    <string name="profile_phone_hint">Phone</string>
+    <string name="profile_phone" />
+    <string name="profile_email" />
+    <string name="profile_email_hint">E-mail</string>
+    <string name="profile_password_hint">Password</string>
+    <string name="profile_password" />
+    <string name="lbl_profile_vehicle">Vehicle</string>
+    <string name="txt_profile_plate" />
+    <string name="txt_profile_plate_hint">Plate</string>
+    <string name="txt_profile_vin" />
+    <string name="txt_profile_vin_hint">VIN</string>
+    <string name="txt_profile_manufecture" />
+    <string name="txt_profile_manufecture_hint">Manufecturer</string>
+    <string name="txt_profile_model" />
+    <string name="txt_profile_model_hint">Model</string>
+    <string name="txt_profile_color" />
+    <string name="txt_profile_color_hint">Color</string>
+    <string name="txt_profile_capacity" />
+    <string name="txt_profile_capacity_hint">Car Capacity</string>
+    <string name="spinner_TrailerType"></string>
+    <string name="btn_profile">Update</string>
+    <string name="lbl_drActivityHeader">History</string>
+    <string name="btnActOne" />
+    <string name="btnActTwo" />
+    <string name="btnActDetailClose">Close</string>
+</resources>

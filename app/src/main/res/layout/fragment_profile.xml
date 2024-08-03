@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/containerProfile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="true"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.Tiber.ui.profile.nav_profile" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/img_driverIcon"
+            android:layout_width="94dp"
+            android:layout_height="98dp"
+            android:layout_weight="1"
+            android:src="@drawable/tiber" />
+
+        <TextView
+            android:id="@+id/lbl_drActivityHeader"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:text="@string/lbl_profileHeader"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView_profile"
+        android:layout_width="381dp"
+        android:layout_height="608dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.074" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lbl_profile_driver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_driver_profile"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txt_profile_accountNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:enabled="false"
+                android:hint="@string/profile_AccountNumber_Hint"
+                android:inputType="number"
+                android:text="@string/profile_AccountNumber"
+                android:textColorHint="@color/cardview_dark_background"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txt_profile_firstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:enabled="false"
+                android:hint="@string/prompt_first_name"
+                android:inputType="text"
+                android:text="@string/profile_firstName"
+                android:textColorHint="@color/cardview_dark_background"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txt_profile_lastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:enabled="false"
+                android:hint="@string/prompt_last_name"
+                android:inputType="text"
+                android:text="@string/profile_lastName"
+                android:textColorHint="@color/cardview_dark_background"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txt_profile_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="@string/profile_phone_hint"
+                android:inputType="number"
+                android:text="@string/profile_phone"
+                android:textColorHint="@color/cardview_dark_background"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txt_profile_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="@string/profile_email_hint"
+                android:inputType="text"
+                android:text="@string/profile_email"
+                android:textColorHint="@color/cardview_dark_background"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txt_profile_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="@string/profile_password_hint"
+                android:inputType="textPassword"
+                android:text="@string/profile_password"
+                android:textColorHint="@color/cardview_dark_background"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/lbl_profile_vehicle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/lbl_profile_vehicle"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txt_profile_plate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="@string/txt_profile_plate_hint"
+                android:inputType="text"
+                android:text="@string/txt_profile_plate"
+                android:textColorHint="@color/cardview_dark_background"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txt_profile_vin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="@string/txt_profile_vin_hint"
+                android:inputType="text"
+                android:text="@string/txt_profile_vin"
+                android:textColorHint="@color/cardview_dark_background"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txt_profile_manufecturer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="@string/txt_profile_manufecture_hint"
+                android:inputType="text"
+                android:text="@string/txt_profile_manufecture"
+                android:textColorHint="@color/cardview_dark_background"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txt_profile_model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="@string/txt_profile_model_hint"
+                android:inputType="text"
+                android:text="@string/txt_profile_model"
+                android:textColorHint="@color/cardview_dark_background"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txt_profile_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="@string/txt_profile_color_hint"
+                android:inputType="text"
+                android:text="@string/txt_profile_color"
+                android:textColorHint="@color/cardview_dark_background"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txt_profile_capacity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="@string/txt_profile_capacity_hint"
+                android:inputType="text"
+                android:text="@string/txt_profile_capacity"
+                android:textColorHint="@color/cardview_dark_background"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_Profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="50dp"
+                android:text="@string/btn_profile"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
