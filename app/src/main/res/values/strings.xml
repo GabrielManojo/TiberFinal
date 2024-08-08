@@ -7,7 +7,7 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="google_maps_api_key">AIzaSyA5GO9Gg2nm3KDZC2Y2fQmnUojoAerhOzA</string>
+    <string name="google_maps_api_key">XXXXXXXXXXXXXXXXXXXXXXX</string> //use your Google MAPS API
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
